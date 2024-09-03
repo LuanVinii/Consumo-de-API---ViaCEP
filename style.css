@@ -4,7 +4,7 @@ body {
 
 header {
     background-color: cornflowerblue;
-    padding: 1.2rem;
+    padding: 0.5rem;
 }
 
 h1 {
@@ -81,4 +81,23 @@ h1 {
     font-weight: 400;
     font-style: normal;
     text-align: center;
+}
+
+@media (max-width: 420px){
+    .formulario {
+        right: 1rem;
+    }
+
+    .pesquisar {
+        position: absolute;
+        top: 0.35rem;
+        right: 2.3rem;
+    }
+
+    #resultado {
+        position: relative;
+        display: none;
+        left: 25%;
+        width: 50%;
+    }
 }
