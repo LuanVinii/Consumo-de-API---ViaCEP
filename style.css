@@ -82,22 +82,3 @@ h1 {
     font-style: normal;
     text-align: center;
 }
-
-@media (max-width: 420px){
-    .formulario {
-        right: 1rem;
-    }
-
-    .pesquisar {
-        position: absolute;
-        top: 0.35rem;
-        right: 2.3rem;
-    }
-
-    #resultado {
-        position: relative;
-        display: none;
-        left: 25%;
-        width: 50%;
-    }
-}
